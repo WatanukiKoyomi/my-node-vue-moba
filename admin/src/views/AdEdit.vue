@@ -20,7 +20,6 @@
               :action="$http.defaults.baseURL+'/upload'"
               :show-file-list="false"
               :on-success="res =>$set(item, 'image', res.url)"
-              :before-upload="beforeAvatarUpload"
             >
               <img v-if="item.image" :src="item.image" class="image" />
               <i v-else class="el-icon-plus avatar-uploader-icon"></i>

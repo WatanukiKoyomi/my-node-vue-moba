@@ -3,7 +3,7 @@
     <h1>管理员列表</h1>
     <el-table :data="items">
       <el-table-column prop="_id" label="ID"></el-table-column>
-      <el-table-column prop="name" label="管理员名称"></el-table-column>
+      <el-table-column prop="username" label="管理员名称"></el-table-column>
       <el-table-column prop="password" label="密码"></el-table-column>
       <el-table-column label="操作">
         <template slot-scope="scope">

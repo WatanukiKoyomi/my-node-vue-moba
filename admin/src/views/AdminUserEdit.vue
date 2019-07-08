@@ -4,7 +4,7 @@
         <el-form label-width="120px" @submit.native.prevent="save">
             
             <el-form-item label="名称">
-                <el-input v-model="model.name" width="50px"></el-input>
+                <el-input v-model="model.username" width="50px"></el-input>
             </el-form-item>
             <el-form-item label="密码">
                 <el-input v-model="model.password" width="50px" type="password"></el-input>

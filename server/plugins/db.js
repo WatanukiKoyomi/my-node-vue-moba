@@ -1,4 +1,4 @@
-module.exports=add=>{
+module.exports = add => {
     const mongoose=require("mongoose")
     mongoose.connect('mongodb://127.0.0.1:27017/my-node-vue-moba',{
         useNewUrlParser:true
